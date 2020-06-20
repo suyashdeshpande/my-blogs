@@ -24,9 +24,9 @@ export default ({ children }) => {
         <Navigation />
       </header>
       {children}
-      <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by Suyash Deshpande</p>
-      </footer>
+      {/* <footer className="site-footer">
+        <p>&copy; {new Date().getFullYear()} Crafted with <span role="img" aria-label="love">❤️</span> by Suyash Deshpande</p>
+      </footer> */}
     </div>
   )
 }
